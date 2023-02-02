@@ -12,8 +12,8 @@ root.render(
     <BrowserRouter>
       <Routes>
         <Route path='/hola_react/' element={<LoginPage/>}/>
-        <Route path='/main' element={<MainPage/>}/>
-        <Route path='/about' element={<AboutPage/>}/>
+        <Route path='/hola_react/main' element={<MainPage/>}/>
+        <Route path='/hola_react/about' element={<AboutPage/>}/>
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
