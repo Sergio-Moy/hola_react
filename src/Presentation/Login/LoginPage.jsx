@@ -15,7 +15,7 @@ function LoginPage(){
     
             const dataUsuarioJSON = JSON.stringify(dataUsuario)
             sessionStorage.setItem("DATA_USUARIO", dataUsuarioJSON)
-            navigate("/main",{
+            navigate("/hola_react/main",{
                 state : {username : usuario}
             })
         }
